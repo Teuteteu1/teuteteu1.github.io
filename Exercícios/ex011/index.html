@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="c:\Users\Teu\Documents\Estudos\Html-css\fotoabencoada.png" type="image/x-icon">
+        <title>Mídias em HTML5</title>
+    </head>
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <h1>Imagem dinâmica</h1>
+        <p>Tenta abrir essa imagem em varios dispositivos diferentes ou simplesmente aumente e diminuia o tamanho do seu navegador</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexível">
+        </picture>
+        <br>
+        <a style="line-height: 300px; font-size: 100px;" href="pag002.html">Página 2</a> 
+        <h1>Reproduzindo aúdio</h1>
+        <p>Vamos aprender a reproduzir audio em HTML5.</p>
+        <audio src="midia/guanacast-33.mp3" controls></audio>
+        <audio src="midia/happy-mistake.mp3" controls></audio>
+        <!-- MP3 WAV OGG -->
+        <h2><span title="Na verdade essa maneira dois serve caso um aúdio não consiga ser processado então acaba aparecendo o segundo">Maneira 2</span></h2>
+        <audio preload="metadata" controls loop>
+            <source src="midia/guanacast-33.mp2" type="audio/mpeg">
+            <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+            <p>Não deu meu nobre</p>
+        </audio>
+        
+
+    </body>
+</html>

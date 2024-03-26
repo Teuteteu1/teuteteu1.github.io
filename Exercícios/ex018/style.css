@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*
+        Html id / css # ( Só um elemento por página)
+        html class / css . (Vários elementos por página)
+*/
+
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+
+}
+.intermediario{
+    color: #76803c;
+
+}
+.avancado{
+    color: #803c3c;
+
+}
